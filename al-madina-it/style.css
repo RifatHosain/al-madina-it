@@ -1,0 +1,196 @@
+/*common css start*/
+/*common css end*/
+
+/*header start*/
+header{
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo h1{
+	margin: 0;
+}
+.menu{
+	width: 80%;
+	float: right;
+	text-align: right;
+	
+}
+.menu a{
+	text-decoration: none;
+	font-size: 25px;
+	padding-right: 30px;
+	color: black;
+
+}
+.menu a:hover{
+	color: green;
+	text-decoration: underline;
+}
+
+/*marquee start*/
+marquee{
+	font-size: 20px;
+	font-weight: bold;
+	color: yellowgreen;
+	background-color: black;
+	padding: 10px 0;
+}
+
+/*slider start*/
+.slider{
+	margin-bottom: 100px;
+}
+.slider-image{}
+.slider-image img{
+	width: 100%;
+}
+
+/*about-us start*/
+.about-us{
+	background-color: lightcyan;
+	margin-bottom: 100px;
+}
+.common-header{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.common-header h1{
+	text-align: center;
+	margin-bottom: 0;
+}
+.line{
+	width: 60px;
+	height: 2px;
+	background-color: black;
+	margin: 0 auto;
+}
+.about-us{
+	overflow: hidden;
+}
+.about-image{
+	width: 40%;
+	float: left;
+}
+.about-image img{
+	width: 100%;
+}
+.about-text{
+	width: 55%;
+	float: right;
+	padding-left: 5%;
+}
+/*photo gallery start*/
+.photo-gallery{
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+.photo-gallery-img1{
+	width: 24%;
+	float: left;
+	margin-right: 1%;
+
+}
+.photo-gallery-img1 img{
+	width: 100%;
+	transition: .3s;
+}
+.photo-gallery-img1 img:hover {
+	transform: scale(.8);
+}
+
+.photo-gallery-img2{
+	width: 24%;
+	float: left;
+	margin-right: 1%;
+}
+.photo-gallery-img2 img{
+	width: 100%;
+	transition: .3s;
+}
+.photo-gallery-img2 img:hover {
+	transform: scale(.8);
+}
+
+.photo-gallery-img3{
+	width: 24%;
+	float: left;
+	margin-right: 1%;
+}
+.photo-gallery-img3 img{
+	width: 100%;
+	transition: .3s;
+}
+.photo-gallery-img3 img:hover {
+	transform: scale(.8);
+}
+
+.photo-gallery-img4{
+	width: 24%;
+	float: left;
+}
+.photo-gallery-img4 img{
+	width: 100%;
+	transition: .3s;
+}
+.photo-gallery-img4 img:hover {
+	transform: scale(.8);
+}
+
+/*contact us start*/
+.contact-us{
+	overflow: hidden;
+	background-color: lightcyan;
+	margin-bottom: 100px;
+}
+.google-map{
+	width: 40%;
+	float: left;
+	margin-right: 5%;
+}
+.google-map iframe{
+	width: 100%;
+}
+.contact-form{
+	width: 55%;
+	float: right;
+
+
+}
+.contact-form h1{
+	margin: 0;
+	margin-bottom: 10px;
+}
+.cu-contact-form input{
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	width: 50%;
+}
+/*contact us end*/
+/*footer start*/
+footer{}
+.footer-top{
+	overflow: hidden;
+}
+.footer-address{
+	width: 33.33%;
+	float: left;
+}
+.footer-address h2{
+	margin: 0;
+}
+.useful-link{
+	width: 33.33%;
+	float: left;
+}
+.social-link{
+	width: 33.33%;
+	float: left;
+}
+.footer-bottom{
+	text-align: center;
+}
+/*footer end*/
